@@ -50,17 +50,21 @@ body {
 	background-size: cover;
 }
 h1 {
-font-family: cursive;
+font-family: sans-serif;
 font-weight: 800;
 color: white
 }
 h2 {
-	font-family: cursive;
+	font-family: sans-serif;
 	font-weight: 200;
-	color: white
+	color: white;
+	font-size: 16px
 }
 h3 {
-
+	font-family: sans-serif;
+	font-weight: 200;
+	color: white;
+	font-size: 200px
 }
 .header {
 display: grid;
@@ -101,11 +105,26 @@ margin: 20px 70px;
 .maintop {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 10%
+	margin-top: 8%;
+	padding: 0px 200px
 }
 .maintopr {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 
+}
+.maintext {
+display: flex;
+	flex-direction: column;
+	padding-left: 200px
+}
+.border {
+border-top: 1px solid white;
+height: 15%;
+width: 15%;
+}
+.bottominfo {
+display: flex;
+justify-content: space-around;	
 }
